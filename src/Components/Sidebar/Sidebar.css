@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins-Bold.ttf");
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.admin {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+}
+
+.admin-span {
+  color: #ffffff;
+  font-size: 1.4vw;
+  padding-left: 15px;
+  font-family: PoppinsBold;
+}
+
+.sidebar {
+  background-color: #1c1f2e;
+  height: 100vh;
+  width: 20%;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-main {
+  padding-top: 30px;
+}
+
+.sidebar-content {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 10px;
+  border: none;
+}
+
+.sidebar-span {
+  color: #c4d7f8;
+  font-size: 1.2vw;
+  padding-left: 15px;
+  transition: color 0.3s;
+}
+
+.sidebar-content:hover {
+  background-color: #0e78f9;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.sidebar-content:hover .sidebar-span {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

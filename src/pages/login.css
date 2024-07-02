@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "PoppinsNormal";
+  src: url("../assets/fonts/Poppins-Medium.ttf");
+}
+
+* {
+  font-family: PoppinsNormal;
+}
+
+.login-page {
+  background-color: #161925;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.login-box {
+  width: 25%;
+  height: 50%;
+  border-radius: 10px;
+  background-color: #1c1f2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.8vw;
+  font-family: PoppinsBold;
+}
+
+.login-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 18vh;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-input {
+  width: 80%;
+  background-color: #252a41;
+  border-radius: 5px;
+}
+
+.login-btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.login-btn {
+  background-color: #0e78f9;
+  color: white;
+  font-weight: bold;
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+  .login-box {
+    width: 30%;
+  }
+}
+/* Tablets in landscape mode and below */
+@media (max-width: 1024px) {
+  .login-box {
+    width: 40%;
+  }
+  .login-h1 {
+    font-size: 2.8vw;
+  }
+}
+
+/* Extra large phones and below */
+@media (max-width: 767px) {
+  .login-box {
+    width: 60%;
+  }
+  .login-h1 {
+    font-size: 3.6vw;
+  }
+}
+
+/* Large phones and below */
+@media (max-width: 480px) {
+  .login-box {
+    width: 80%;
+  }
+  .login-h1 {
+    font-size: 4.5vw;
+  }
+}
+
+/* Small phones */
+@media (max-width: 320px) {
+  .login-h1 {
+    font-size: 5vw;
+  }
+}

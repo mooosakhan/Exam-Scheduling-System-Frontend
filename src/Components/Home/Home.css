@@ -1,0 +1,92 @@
+.home {
+  background-color: #161925;
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.time {
+  background-image: url("https://img.freepik.com/premium-photo/2024-calendar-event-planner-timetable-agenda_901075-1458.jpg?w=1060");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 40%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.datetime {
+  color: white;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.clock {
+  font-size: 3rem !important;
+  font-weight: bold;
+}
+
+.date,
+.clock {
+  margin: 0;
+}
+
+.home-btn {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #ff742e;
+}
+
+.btn-2 {
+  background-color: #0e78f9;
+}
+
+.btn-3 {
+  background-color: #830ef9;
+}
+
+.btn,
+.btn-2,
+.btn-3 {
+  border: none;
+  color: white;
+  padding: 40px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fc8144;
+}
+
+.btn-2:hover {
+  background-color: #2f8bfc;
+}
+
+.btn-3:hover {
+  background-color: #9d40fa;
+}
