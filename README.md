@@ -19,9 +19,10 @@
 - Create,read,update,delete classrooms
 - Create,read,update,delete teachers
 - Create,read,update,delete Exams
-- Create,read,update,delete
+- Create,read,update,delete about all the entities
 - Automatically generated the timetable
 - Schedule teacher's for exam's
+- Automatically generated the time table in an excell sheet
 
 ## Technologies Used
 
@@ -71,16 +72,3 @@
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a pull request.
-
-
-### Notes:
-
-- **Project Name**: Replace with your actual project name.
-- **Description**: Replace "A brief description..." with a concise summary of your project.
-- **Features**: List the key features your application offers.
-- **Demo**: Provide a link to a live demo or a video walkthrough of your application.
-- **Technologies Used**: List all the technologies and frameworks used in your project.
-- **Setup Instructions**: Detail how to clone, install dependencies, and run your project locally.
-- **Usage**: Optionally provide examples or screenshots demonstrating how to use your application.
-- **Contributing**: Explain how others can contribute to your project.
-- **License**: Specify the license under which your project is distributed.
